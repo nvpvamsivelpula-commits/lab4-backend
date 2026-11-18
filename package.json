@@ -1,0 +1,26 @@
+{
+  "name": "lab-4-auth-jwt",
+  "version": "1.0.0",
+  "description": "College Lab 4: Registration, Login and JWT Authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "view-db": "node database/view_db.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlite",
+    "bcrypt",
+    "jwt",
+    "authentication"
+  ],
+  "author": "V.Ravi Vamsi",
+  "license": "ISC"
+}
